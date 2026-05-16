@@ -1,0 +1,13 @@
+[project]
+name = "serpapi-experiments"
+version = "0.1.0"
+description = "CLI that fetches Google News results via SerpAPI."
+requires-python = ">=3.10"
+dependencies = [
+    "google-search-results>=2.4.2",
+    "python-dotenv>=1.0.0",
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+news-digest = "main:main"
